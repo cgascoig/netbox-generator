@@ -6,4 +6,4 @@ COPY Pipfile Pipfile.lock *.py /
 
 RUN pipenv install --system --deploy
 
-ENTRYPOINT [ "python", "netbox_gen.py" ]
+ENTRYPOINT [ "python", "/netbox_gen.py" ]
