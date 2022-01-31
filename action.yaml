@@ -1,0 +1,7 @@
+# action.yml
+name: 'Netbox Generate'
+description: 'Generate configuration files (e.g Terraform/Ansible/etc.) from netbox data and templates'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
